@@ -127,9 +127,9 @@ color: white;
     display: block;
     position: absolute;
     content: '';
-    width: 30px;
+    width: 40px;
     background-color: #007ced;
-    height: 2px;
+    height: 3px;
   
 }
 .content{
@@ -267,3 +267,4 @@ color: white;
     position: relative;
     border-radius: 10px;
   }
+ 
