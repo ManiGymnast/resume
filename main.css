@@ -8,7 +8,7 @@ nav{
     display: flex;
     flex-direction: column;
     position: fixed;
-    overflow: hidden;
+   
     
     
 
@@ -358,4 +358,23 @@ float:right;
     width:70%;
     height:5px;
     background-color: #007ced;
+}
+footer{
+    position: relative;
+    z-index: 1;
+    background-color: #333;
+    
+    
+}
+.foot{
+    display: flex;
+    flex-direction: row;
+justify-content: space-between;
+}
+
+.foot_2 ul{
+list-style: none;
+}
+.foot_2>ul li{
+    display: inline;
 }
