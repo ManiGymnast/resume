@@ -190,6 +190,15 @@ color: white;
     filter: drop-shadow(1px 1px 10px rgb(16, 133, 235));
     
 }
+.fun>h3{
+    margin: 0;
+    font-weight: 200;
+    font-size: small;
+}
+.fun span{
+    font-size: large;
+    font-weight: 600;
+}
 
 .timeline {
     position: relative;
@@ -267,4 +276,86 @@ color: white;
     position: relative;
     border-radius: 10px;
   }
- 
+ .exp{
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+
+ }
+ .exp_1{
+    display: flex;
+    gap: 1%;
+    justify-content: center;
+ }
+ .exp_1 span{
+    font-weight: 100;
+    font-size: large;
+    color: #007ced;
+ }
+.exp_1>h5{
+display: block;
+
+padding: 0px 10px;
+border: 2px solid  rgb(139, 169, 197);
+border-radius: 10px;
+margin-bottom: 1%;
+font-weight: 200;
+}
+.exp_2 span{
+    color: rgb(40, 216, 232);
+}
+.skill{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-bottom: 2%;
+    gap: 5px;
+    
+
+}
+.skill_box{
+ display: flex;
+ flex-direction: column;
+ margin: 4px;
+}
+.skill_1{
+    margin-bottom: 1%;
+    
+}
+.skill_1>h5{
+    margin: 0;
+    position: relative;
+    float: left;
+
+}
+.skill_1 span{
+
+position: relative;
+display: block;
+float:right;
+
+}
+.line{
+    width: 100%;
+    border: 3px solid rgba(210, 210, 231, 0.2);
+    border-radius: 8px;
+    padding: 2px 2px;
+    background-color: transparent;
+}
+.s1{
+    width:100%;
+    height:5px;
+
+    background-color: #007ced;
+}
+.s2{
+    width:80%;
+    height:5px;
+    background-color: #007ced;
+}
+
+.s3{
+    width:70%;
+    height:5px;
+    background-color: #007ced;
+}
