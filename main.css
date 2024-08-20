@@ -8,6 +8,7 @@ nav{
     display: flex;
     flex-direction: column;
     position: fixed;
+    overflow:hidden;
    
     
     
@@ -363,6 +364,7 @@ footer{
     position: relative;
     z-index: 1;
     background-color: #333;
+    border-radius: 5px 0px 0px 5px;
     
     
 }
@@ -370,11 +372,29 @@ footer{
     display: flex;
     flex-direction: row;
 justify-content: space-between;
+
+}
+.foot_1{
+    margin-top: 1%;
+    margin-left: 2px;
+    color: #fff;
+}
+.foot_2{
+    margin-top: 1%;
+    margin-right: 2%;
 }
 
 .foot_2 ul{
 list-style: none;
 }
 .foot_2>ul li{
+    color: #a49f9f;
     display: inline;
+    margin: 2px;
+}
+.foot_2>ul li:hover{
+    color: #fff;
+}
+html{
+    background-color: #333;
 }
